@@ -1,0 +1,1326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="default">
+      <UniqueIdentifier>{b052048e-c8bc-455e-9e4c-f6a06c3dd53c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{5197213e-0551-4856-af12-70ec248b1827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\00. header">
+      <UniqueIdentifier>{d8138ee2-163c-416a-b1cf-0e294963cb74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\01. Engine">
+      <UniqueIdentifier>{5f9558a5-d8d1-474f-bac4-5983f74142bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager">
+      <UniqueIdentifier>{2f220ed4-45f1-4386-99cd-ed4e1647e2b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level">
+      <UniqueIdentifier>{13ea8e3a-ff6b-4bf1-99aa-37fc78a454a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor">
+      <UniqueIdentifier>{53b5199a-3bd7-48da-b7f8-99288865d663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component">
+      <UniqueIdentifier>{d83ae348-80d7-40bb-8b5b-f8632a7fe2e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Resource">
+      <UniqueIdentifier>{f665dca5-1fd5-4d78-9f31-2fba0365414c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{a0ef3cf2-604b-483c-9c44-0cf710447c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Resource\Texture">
+      <UniqueIdentifier>{14da086d-1da6-412a-bf2a-21b84c0c6bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Resource\Sound">
+      <UniqueIdentifier>{aa187d8a-d7a8-48ee-aa9e-60a023f0ec5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\01. KeyMgr">
+      <UniqueIdentifier>{c8d9c4f0-b5a1-4ec0-accc-7841fd11e1e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\02. TimeMgr">
+      <UniqueIdentifier>{6999ac7d-4467-4770-b8d8-8207b68b0679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\03. LevelMgr">
+      <UniqueIdentifier>{5b475dcd-12ec-45a7-9546-b96f8f7533e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\04. CollisionMgr">
+      <UniqueIdentifier>{93ebd0c1-15a2-46e7-8487-cb7612c4fa95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\05. EventMgr">
+      <UniqueIdentifier>{22d6ee43-28e5-42d5-aebf-b62f4e70c296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\06. PathMgr">
+      <UniqueIdentifier>{ee2b692f-3921-46bd-9671-9c50a71a7be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\07. ResMgr">
+      <UniqueIdentifier>{0e0662be-21f9-4d61-851a-864447b9ad4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\08. UIMgr">
+      <UniqueIdentifier>{6adb0170-6114-474a-90bf-e3648a2ce097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\09. SoundMgr">
+      <UniqueIdentifier>{d66b7c67-f747-4eb5-86ab-aa2b53c2b018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\ToolLevel">
+      <UniqueIdentifier>{9df9fc3f-2032-42ed-b1c7-20ad9ecef08d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI">
+      <UniqueIdentifier>{d9f4c7e9-02ba-46f9-97b7-34ff1a5fede8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\PN">
+      <UniqueIdentifier>{e25c7e01-6396-42b6-8109-caf9ec96b1c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\Btn">
+      <UniqueIdentifier>{fbca24a9-1ab9-4646-85c0-8a6363dcb8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\ToolInven">
+      <UniqueIdentifier>{bc1ce28a-441b-4394-b1c3-ce5d4e281919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component\Animator">
+      <UniqueIdentifier>{ac9aa2f4-93e4-4afe-b937-dfe92a0f7072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\11. AnimationMgr">
+      <UniqueIdentifier>{af9ceb32-13dd-4820-a486-0e1f56fe6298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component\Animator\Animation">
+      <UniqueIdentifier>{e1b65b2b-a7ef-44b2-bcbf-f543212c78f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Cursor">
+      <UniqueIdentifier>{b020b837-abdd-4c20-a736-553173a1b4d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\12: CsrMgr">
+      <UniqueIdentifier>{ffa45cac-cdd1-4031-98e2-aa3d38064936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\Camera">
+      <UniqueIdentifier>{f8ec21ea-fdfb-4307-af5f-5d7eeb2f7263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\Tab">
+      <UniqueIdentifier>{2fc97dbf-c440-405a-90fb-816e0c8b7ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component\Rigidbody">
+      <UniqueIdentifier>{2d769945-90db-4e52-bbf7-3f5165e35762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component\Collider">
+      <UniqueIdentifier>{a28ea783-e4da-4210-9c95-c776c910d471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\Dummy">
+      <UniqueIdentifier>{caf991ee-9c65-423c-afb5-3d375e5e2277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\MapInfo">
+      <UniqueIdentifier>{46acc9d3-9ac7-4571-a264-b7232797b473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\MapInfo\Backgrnd">
+      <UniqueIdentifier>{92f002a0-6ba0-435f-981a-4a63f035d6d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\MapInfo\MapObj">
+      <UniqueIdentifier>{2884b401-5e87-4810-8dbf-ee52f65140b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\MapInfo\CLine">
+      <UniqueIdentifier>{c8e2516d-8e00-46b8-9c51-26fa2e5c18f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\MapInfo\CLine\CWall">
+      <UniqueIdentifier>{581ca641-e03f-48d5-8c55-f6873fc3add3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\MapInfo\CLine\CPlatform">
+      <UniqueIdentifier>{0afe48bc-2c20-4ec7-a67b-cf4da39c0e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\MapInfo\CLine\CRope">
+      <UniqueIdentifier>{d91afbd8-1ff9-416c-b80b-acc7d5521987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\MapInfo\CLine\CLadder">
+      <UniqueIdentifier>{c2554f2b-c120-4853-b09c-9d03d2471cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\MapInfo\MapObj\Portal">
+      <UniqueIdentifier>{a051ce51-4f49-4848-83b5-7ec36374809a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Mob">
+      <UniqueIdentifier>{e88e8161-0b38-4c95-929a-d6bfcef585d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\Debug">
+      <UniqueIdentifier>{6db382b1-5322-494f-b914-c59463c30087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\MapInfo\Map">
+      <UniqueIdentifier>{6535821c-ccb5-4277-a253-03c99a8e4f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\LevelInit">
+      <UniqueIdentifier>{e791894f-8d1b-4ac6-951f-ad8e9f191ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State">
+      <UniqueIdentifier>{a530cbf6-be4f-45df-846a-9eaaf146554a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState">
+      <UniqueIdentifier>{ea11b2af-d8a8-4251-b9c5-941490780e6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\Stage">
+      <UniqueIdentifier>{fed99e70-89a6-4a50-844a-8c766f324ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\Stage\Stage04">
+      <UniqueIdentifier>{3576e9b1-5350-4eaa-b75c-0178c11d0ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\Stage\Stage03">
+      <UniqueIdentifier>{12983a33-7e23-40cb-8b20-c8693e5a3acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\Stage\Stage01">
+      <UniqueIdentifier>{ee40dc3a-a869-4a6c-9182-adf4fad67d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\Stage\Stage02">
+      <UniqueIdentifier>{96636fb9-f20f-48bf-a942-503c9f7c8e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\LevelState">
+      <UniqueIdentifier>{affb691c-a37b-4087-9bd0-13c1dfd6b8d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\LevelState\StateList">
+      <UniqueIdentifier>{dbabf196-b86c-4ea9-803c-4acbe1aaa2ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\LevelState\StateList\LevelIn">
+      <UniqueIdentifier>{54ae4fe3-3348-47c8-840f-d53d640325d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\LevelState\StateList\LevelOut">
+      <UniqueIdentifier>{bba56894-90cc-4d4f-a8ac-fec1991d76bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\LevelState\StateList\LevelChange">
+      <UniqueIdentifier>{c7433eda-b6f1-426c-b856-abe94fbe9804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\LevelState\StateList\LevelIdle">
+      <UniqueIdentifier>{16613292-5567-467e-bfb7-396980a078f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\MobState">
+      <UniqueIdentifier>{2c8761dc-a7f5-4203-ba4e-df6f9e87616a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\13. PlayerMgr">
+      <UniqueIdentifier>{bbe62c74-b1a9-4180-b2af-0ed458798941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\Skill">
+      <UniqueIdentifier>{b02a16f0-d8ce-4952-a334-3c57916059d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Player">
+      <UniqueIdentifier>{6e762f9f-334c-4aab-afb0-fd481f0e737d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\14. BattleMgr">
+      <UniqueIdentifier>{1288d97b-cf13-4f00-a6ae-4148f8292d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\MapInfo\MapObj\Spawner">
+      <UniqueIdentifier>{41853e69-6830-46c9-9b53-e7d925a0524a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Mob\Snail">
+      <UniqueIdentifier>{40ffca5d-7ece-4fea-a0bf-2af80c12953c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\default">
+      <UniqueIdentifier>{6789a9ba-5140-4993-a186-7d62d8f9b692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\default\Ladder">
+      <UniqueIdentifier>{7a870c5a-5e47-435d-86dd-c127e2000ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\default\AlertLeft">
+      <UniqueIdentifier>{627c7426-6834-4bca-a365-8807787d6865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\default\AlertRight">
+      <UniqueIdentifier>{7a1b576e-7fba-4158-905b-14a521bee414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\default\JumpLeft">
+      <UniqueIdentifier>{437e0feb-756f-45a2-ac19-c7d747e20498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\default\JumpRight">
+      <UniqueIdentifier>{8cb79e56-6f0f-462a-a6f3-7b33bbcfdc5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\default\WalkRight">
+      <UniqueIdentifier>{95bfac94-3e01-41f3-aa2c-8e3b56e56b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\default\ProneLeft">
+      <UniqueIdentifier>{73032638-429c-4dc3-bc6c-d379af230549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\default\ProneRight">
+      <UniqueIdentifier>{99d264eb-bec6-43ff-a42b-1b12b962bc2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\default\Rope">
+      <UniqueIdentifier>{c557668d-66ef-4b3d-8015-899093f168a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\default\StandLeft">
+      <UniqueIdentifier>{78b03d83-71c4-40dc-8ff9-c8d5ae01e5d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\default\StandRight">
+      <UniqueIdentifier>{7cfa3946-4d69-4f35-b0ea-1f4d05ba3507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\default\WalkLeft">
+      <UniqueIdentifier>{d3d77507-2dda-405d-b2d0-38278bbb36b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\MobState\IdleLeft">
+      <UniqueIdentifier>{82839b30-735f-4b16-bce6-83a8e6565942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\MobState\IdleRight">
+      <UniqueIdentifier>{6dfbfe8f-59d0-4c40-88af-097a10f7686d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\MobState\WalkLeft">
+      <UniqueIdentifier>{ec3235f1-c10a-40f8-95bb-c047e9a06932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\MobState\WalkRight">
+      <UniqueIdentifier>{e5e4be8b-bd0c-41c0-83f8-c54491c3b0d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\MobState\Dead">
+      <UniqueIdentifier>{5dd18a84-e790-43c0-80b0-9fdd3a5fa29d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\MobState\Alert">
+      <UniqueIdentifier>{f0ffe320-958c-4cbb-8212-d3ccf1eaa8cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\MobState\Spawn">
+      <UniqueIdentifier>{5ce5e73e-39ad-477f-99e5-b301d33ccce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\MobState\Damaged">
+      <UniqueIdentifier>{36ae2af9-b30a-4285-a0ab-c446e4d8099e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Damage">
+      <UniqueIdentifier>{9d4f9e04-3b74-4d8e-82dd-2974242317a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Mob\BlueSnail">
+      <UniqueIdentifier>{8766038f-6baa-4f09-a114-49aa8cefc678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\MainBar">
+      <UniqueIdentifier>{f616406f-6f68-4dcc-9b7b-4d9ce5170d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\MainBar\StatusBar">
+      <UniqueIdentifier>{d019a85d-85ba-4b61-81f8-ed7926dcd2d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\MainBar\ExpBar">
+      <UniqueIdentifier>{fb87e9c6-3573-491b-9bfe-f9fe5eeaaad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\MainBar\char">
+      <UniqueIdentifier>{bb035484-2745-444b-aab8-eb39096750a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\MainBar\StatusBar\Level">
+      <UniqueIdentifier>{a01b608f-9504-46f0-ab12-985199cbb286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\MainBar\gauge">
+      <UniqueIdentifier>{cd4c9761-773f-4fde-92d2-13286546841f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\MainBar\backgrnd">
+      <UniqueIdentifier>{37e7b591-7f00-4ef4-a35f-0ccbf2f46ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\MainBar\char\LvNum">
+      <UniqueIdentifier>{ef2804d8-ebff-40f2-bf7e-270114d7133f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\MainBar\gauge\ExpGauge">
+      <UniqueIdentifier>{0896f412-8bad-41f0-b843-3ee0bdd74d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\MainBar\char\CNum">
+      <UniqueIdentifier>{6fa7b975-be8c-496f-9cf8-59a46c0b47df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\QuickSlot">
+      <UniqueIdentifier>{7c9f5d46-94c3-4001-8b75-53b8029bed47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\MainBar\Layer">
+      <UniqueIdentifier>{0db468a0-e41c-46dd-84b8-1c537ea8dedf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\SystemWindow">
+      <UniqueIdentifier>{81c5b1c1-552b-4c92-a7ac-06b626257b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\SystemWindow\Statwin">
+      <UniqueIdentifier>{05c0406d-9cea-4b1f-8a87-fa08676c4dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\SystemWindow\Skillwin">
+      <UniqueIdentifier>{2339488d-582e-4b6d-888e-2feb8d298bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Interaction">
+      <UniqueIdentifier>{b7f47ef0-2589-44f3-8cd1-476999961bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Interaction\Skill">
+      <UniqueIdentifier>{1dc92e22-b8f5-4b9c-a9a3-9a76afdc699e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Interaction\Skill\stroke">
+      <UniqueIdentifier>{c8215e27-21c7-4375-9d35-8c5cd889a239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Interaction\Skill\DoubleJump">
+      <UniqueIdentifier>{3ae77b8f-2ec7-4e13-bc1b-37c82b194b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Interaction\LevelUP">
+      <UniqueIdentifier>{efb25374-d15a-4405-8a4e-0bfa34db2be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\SystemWindow\Skillwin\Slot">
+      <UniqueIdentifier>{7bb5c4f0-2534-41ec-851c-38e82cf791df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\QuickSlot\KeySlot">
+      <UniqueIdentifier>{2d57c445-f25f-4f06-8217-a4be193463be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\Skill\stroke">
+      <UniqueIdentifier>{3b40fc6f-ba31-4761-87f4-8a5974b39d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\Skill\stroke\Stroke1">
+      <UniqueIdentifier>{389398a0-07e8-47c7-a0b9-40363cb410ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\Skill\stroke\Stroke2">
+      <UniqueIdentifier>{9f714f44-b90c-47ff-adb8-6378fd4e07d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\Skill\shotgun">
+      <UniqueIdentifier>{fc605040-8ace-4ce8-899a-a2485925f514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\Skill\shotgun\shotgun1">
+      <UniqueIdentifier>{fc304c4c-3b02-4325-9878-8bd14161d85b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\Skill\shotgun\shotgun2">
+      <UniqueIdentifier>{b08d679e-7af7-461f-8c7e-45f7f65bcea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\Skill\shotgun\shotgun3">
+      <UniqueIdentifier>{0b690959-c64f-4d79-ba7d-3549766c376f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Interaction\Skill\shotgun">
+      <UniqueIdentifier>{a0da1cc2-a535-4169-9730-5fa17065f739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\ToolInven\ToolCell">
+      <UniqueIdentifier>{dba70216-8c03-4f54-884f-a24e819fcf7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Item">
+      <UniqueIdentifier>{22e34ab8-c5f9-43e9-b371-41c574342b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\15. ItemMgr">
+      <UniqueIdentifier>{6aca00a7-f8a3-4cda-ad4f-f88d78498b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\SystemWindow\InventoryWin">
+      <UniqueIdentifier>{49328938-6f6c-44b0-97b4-daae42ea9665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Item\RedPotion">
+      <UniqueIdentifier>{9b589d9a-70ec-42b1-a25b-f796faca3aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\ItemState">
+      <UniqueIdentifier>{1e12dd18-24c8-4cef-bea2-6d7ae1a5cc2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\ItemState\Drop">
+      <UniqueIdentifier>{f5b8396c-6acd-4252-841a-7773e4589b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\ItemState\OnField">
+      <UniqueIdentifier>{6ee12735-b8bd-4693-a10c-e9f797f8cc56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\ItemState\Inventory">
+      <UniqueIdentifier>{ef5be8fd-0b7b-4c6c-8d24-551bd68730ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\ItemState\Get">
+      <UniqueIdentifier>{fa30e1e5-5035-40d5-b20a-0db14b7d37b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\SystemWindow\InventoryWin\Slot">
+      <UniqueIdentifier>{071673b2-a413-4a4f-9150-99f46295610a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Item\FiledItem">
+      <UniqueIdentifier>{51d17d3e-c2ec-4222-9ec4-318626726ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Item\BluePotion">
+      <UniqueIdentifier>{67aa5181-d07f-4037-9e8c-d64b63d2f196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Interaction\Skill\brick">
+      <UniqueIdentifier>{0d04cc72-b84e-40bc-a29e-619e45312e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\Skill\brick">
+      <UniqueIdentifier>{5922e53d-ee70-487a-93b5-e23f36ec3b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\Skill\brick\brick1">
+      <UniqueIdentifier>{ca8cffaf-36d3-4ef2-a42c-9d73f7617cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\Skill\brick\brick2">
+      <UniqueIdentifier>{a06a18fb-3a5f-4391-9a50-a2dac87e55b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\Skill\brick\brick3">
+      <UniqueIdentifier>{f9923de8-e837-40c6-b913-df9891f6c902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\State\PlayerState\Skill\brick\brick4">
+      <UniqueIdentifier>{d97f6ecd-91d1-43d1-8ef6-53ff68ffb74d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Title">
+      <UniqueIdentifier>{59e65694-e9d0-4a30-8a75-eb90d9308c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\Logo">
+      <UniqueIdentifier>{d15f6e8a-568b-4987-9ebf-dde4b0b60b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\Login">
+      <UniqueIdentifier>{8138064d-541d-4efe-b252-2da11490ef41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Interaction\Tomb">
+      <UniqueIdentifier>{21c24a58-4677-44f4-8fd3-40f581f880b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\UI\DeadMessage">
+      <UniqueIdentifier>{2c258fd7-4031-4d84-8a60-f900a5ab3056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Mob\mushmom">
+      <UniqueIdentifier>{be83dbea-4173-410e-81c5-80bbdfa7e214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Mob\priestmem">
+      <UniqueIdentifier>{7fa355ca-af02-453f-80ee-881b66d4b897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\Stage\stage05">
+      <UniqueIdentifier>{db60c969-5317-40bf-bfaf-ef5b790f38e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\Stage\stage06">
+      <UniqueIdentifier>{125d622b-3d23-418e-a10f-4f5c6688d4a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Actor\Item\Elixir">
+      <UniqueIdentifier>{41cd6a52-93f4-454c-ba04-7e2108550a1c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>default</Filter>
+    </ClInclude>
+    <ClInclude Include="def.h">
+      <Filter>Game\00. header</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Game\00. header</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Game\00. header</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CEngine.h">
+      <Filter>Game\01. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CRes.h">
+      <Filter>Game\06. Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionMgr.h">
+      <Filter>Game\02. Manager\04. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CEventMgr.h">
+      <Filter>Game\02. Manager\05. EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyMgr.h">
+      <Filter>Game\02. Manager\01. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevelMgr.h">
+      <Filter>Game\02. Manager\03. LevelMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CPathMgr.h">
+      <Filter>Game\02. Manager\06. PathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CResMgr.h">
+      <Filter>Game\02. Manager\07. ResMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundMgr.h">
+      <Filter>Game\02. Manager\09. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIMgr.h">
+      <Filter>Game\02. Manager\08. UIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeMgr.h">
+      <Filter>Game\02. Manager\02. TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CActor.h">
+      <Filter>Game\04. Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>Game\02. Manager\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>Game\06. Resource\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>Game\06. Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CUI.h">
+      <Filter>Game\04. Actor\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CToolInven.h">
+      <Filter>Game\04. Actor\UI\ToolInven</Filter>
+    </ClInclude>
+    <ClInclude Include="CPNUI.h">
+      <Filter>Game\04. Actor\UI\PN</Filter>
+    </ClInclude>
+    <ClInclude Include="CBtnUI.h">
+      <Filter>Game\04. Actor\UI\Btn</Filter>
+    </ClInclude>
+    <ClInclude Include="CToolCell.h">
+      <Filter>Game\04. Actor\UI\ToolInven\ToolCell</Filter>
+    </ClInclude>
+    <ClInclude Include="CCsrMgr.h">
+      <Filter>Game\02. Manager\12: CsrMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimationMgr.h">
+      <Filter>Game\02. Manager\11. AnimationMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>Game\05. Component\Animator\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponent.h">
+      <Filter>Game\05. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator.h">
+      <Filter>Game\05. Component\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="CCursor.h">
+      <Filter>Game\04. Actor\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="CTab.h">
+      <Filter>Game\04. Actor\UI\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackgrnd.h">
+      <Filter>Game\04. Actor\MapInfo\Backgrnd</Filter>
+    </ClInclude>
+    <ClInclude Include="CMap.h">
+      <Filter>Game\04. Actor\MapInfo\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CToolLevel.h">
+      <Filter>Game\03. Level\ToolLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogoLevel.h">
+      <Filter>Game\03. Level\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="CRigidbody.h">
+      <Filter>Game\05. Component\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider.h">
+      <Filter>Game\05. Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlatform.h">
+      <Filter>Game\04. Actor\MapInfo\CLine\CPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="CDummy.h">
+      <Filter>Game\04. Actor\UI\Dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="CLine.h">
+      <Filter>Game\04. Actor\MapInfo\CLine</Filter>
+    </ClInclude>
+    <ClInclude Include="CWall.h">
+      <Filter>Game\04. Actor\MapInfo\CLine\CWall</Filter>
+    </ClInclude>
+    <ClInclude Include="CRope.h">
+      <Filter>Game\04. Actor\MapInfo\CLine\CRope</Filter>
+    </ClInclude>
+    <ClInclude Include="CLadder.h">
+      <Filter>Game\04. Actor\MapInfo\CLine\CLadder</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpawner.h">
+      <Filter>Game\04. Actor\MapInfo\MapObj\Spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="CMob.h">
+      <Filter>Game\04. Actor\Mob</Filter>
+    </ClInclude>
+    <ClInclude Include="CDebug.h">
+      <Filter>Game\02. Manager\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="CPortal.h">
+      <Filter>Game\04. Actor\MapInfo\MapObj\Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="CStage01.h">
+      <Filter>Game\03. Level\Stage\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevel.h">
+      <Filter>Game\03. Level\LevelInit</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Game\04. Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerState.h">
+      <Filter>Game\State\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerStandLeft.h">
+      <Filter>Game\State\PlayerState\default\StandLeft</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerStandRight.h">
+      <Filter>Game\State\PlayerState\default\StandRight</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerWalkLeft.h">
+      <Filter>Game\State\PlayerState\default\WalkLeft</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerWalkRight.h">
+      <Filter>Game\State\PlayerState\default\WalkRight</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerRope.h">
+      <Filter>Game\State\PlayerState\default\Rope</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerProneRight.h">
+      <Filter>Game\State\PlayerState\default\ProneRight</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerProneLeft.h">
+      <Filter>Game\State\PlayerState\default\ProneLeft</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerLadder.h">
+      <Filter>Game\State\PlayerState\default\Ladder</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerJumpLeft.h">
+      <Filter>Game\State\PlayerState\default\JumpLeft</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerJumpRight.h">
+      <Filter>Game\State\PlayerState\default\JumpRight</Filter>
+    </ClInclude>
+    <ClInclude Include="CStage02.h">
+      <Filter>Game\03. Level\Stage\Stage02</Filter>
+    </ClInclude>
+    <ClInclude Include="CStage03.h">
+      <Filter>Game\03. Level\Stage\Stage03</Filter>
+    </ClInclude>
+    <ClInclude Include="CStage04.h">
+      <Filter>Game\03. Level\Stage\Stage04</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevelState.h">
+      <Filter>Game\State\LevelState</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevelStateIdle.h">
+      <Filter>Game\State\LevelState\StateList\LevelIdle</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevelChange.h">
+      <Filter>Game\State\LevelState\StateList\LevelChange</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevelStateIn.h">
+      <Filter>Game\State\LevelState\StateList\LevelIn</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevelStateOut.h">
+      <Filter>Game\State\LevelState\StateList\LevelOut</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerMgr.h">
+      <Filter>Game\02. Manager\13. PlayerMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerAlertLeft.h">
+      <Filter>Game\State\PlayerState\default\AlertLeft</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerAlertRight.h">
+      <Filter>Game\State\PlayerState\default\AlertRight</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerSkillStroke.h">
+      <Filter>Game\State\PlayerState\Skill\stroke\Stroke1</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkill.h">
+      <Filter>Game\04. Actor\Interaction\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillStroke.h">
+      <Filter>Game\04. Actor\Interaction\Skill\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillStroke2.h">
+      <Filter>Game\04. Actor\Interaction\Skill\stroke</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleJump.h">
+      <Filter>Game\04. Actor\Interaction\Skill\DoubleJump</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerSkillStroke2.h">
+      <Filter>Game\State\PlayerState\Skill\stroke\Stroke2</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattleMgr.h">
+      <Filter>Game\02. Manager\14. BattleMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob_Snail.h">
+      <Filter>Game\04. Actor\Mob\Snail</Filter>
+    </ClInclude>
+    <ClInclude Include="CMobState.h">
+      <Filter>Game\State\MobState</Filter>
+    </ClInclude>
+    <ClInclude Include="CMobIdleLeft.h">
+      <Filter>Game\State\MobState\IdleLeft</Filter>
+    </ClInclude>
+    <ClInclude Include="CMobAlert.h">
+      <Filter>Game\State\MobState\Alert</Filter>
+    </ClInclude>
+    <ClInclude Include="CMobDead.h">
+      <Filter>Game\State\MobState\Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="CMobIdleRight.h">
+      <Filter>Game\State\MobState\IdleRight</Filter>
+    </ClInclude>
+    <ClInclude Include="CMobWalkLeft.h">
+      <Filter>Game\State\MobState\WalkLeft</Filter>
+    </ClInclude>
+    <ClInclude Include="CMobWalkRight.h">
+      <Filter>Game\State\MobState\WalkRight</Filter>
+    </ClInclude>
+    <ClInclude Include="CMobSpawn.h">
+      <Filter>Game\State\MobState\Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="CMobDamaged.h">
+      <Filter>Game\State\MobState\Damaged</Filter>
+    </ClInclude>
+    <ClInclude Include="CDamage.h">
+      <Filter>Game\04. Actor\Damage</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob_BlueSnail.h">
+      <Filter>Game\04. Actor\Mob\BlueSnail</Filter>
+    </ClInclude>
+    <ClInclude Include="CLayerUI.h">
+      <Filter>Game\04. Actor\UI\MainBar\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="CGaugeUI.h">
+      <Filter>Game\04. Actor\UI\MainBar\gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackGrndUI.h">
+      <Filter>Game\04. Actor\UI\MainBar\backgrnd</Filter>
+    </ClInclude>
+    <ClInclude Include="CStatusLevelUI.h">
+      <Filter>Game\04. Actor\UI\MainBar\StatusBar\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="CStatusBarUI.h">
+      <Filter>Game\04. Actor\UI\MainBar\StatusBar</Filter>
+    </ClInclude>
+    <ClInclude Include="CExpBarUI.h">
+      <Filter>Game\04. Actor\UI\MainBar\ExpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="CLvNum.h">
+      <Filter>Game\04. Actor\UI\MainBar\char\LvNum</Filter>
+    </ClInclude>
+    <ClInclude Include="CNum.h">
+      <Filter>Game\04. Actor\UI\MainBar\char\CNum</Filter>
+    </ClInclude>
+    <ClInclude Include="CExpGaugeUI.h">
+      <Filter>Game\04. Actor\UI\MainBar\gauge\ExpGauge</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelUP.h">
+      <Filter>Game\04. Actor\Interaction\LevelUP</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuickSlotUI.h">
+      <Filter>Game\04. Actor\UI\QuickSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerStatWin.h">
+      <Filter>Game\04. Actor\UI\SystemWindow\Statwin</Filter>
+    </ClInclude>
+    <ClInclude Include="CInteraction.h">
+      <Filter>Game\04. Actor\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerSkillWin.h">
+      <Filter>Game\04. Actor\UI\SystemWindow\Skillwin</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkillSLot.h">
+      <Filter>Game\04. Actor\UI\SystemWindow\Skillwin\Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="KeySlot.h">
+      <Filter>Game\04. Actor\UI\QuickSlot\KeySlot</Filter>
+    </ClInclude>
+    <ClInclude Include="Skillshotgun3.h">
+      <Filter>Game\04. Actor\Interaction\Skill\shotgun</Filter>
+    </ClInclude>
+    <ClInclude Include="Skillshotgun1.h">
+      <Filter>Game\04. Actor\Interaction\Skill\shotgun</Filter>
+    </ClInclude>
+    <ClInclude Include="Skillshotgun2.h">
+      <Filter>Game\04. Actor\Interaction\Skill\shotgun</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerSkillShotgun1.h">
+      <Filter>Game\State\PlayerState\Skill\shotgun\shotgun1</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerSkillShotgun2.h">
+      <Filter>Game\State\PlayerState\Skill\shotgun\shotgun2</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerSkillShotgun3.h">
+      <Filter>Game\State\PlayerState\Skill\shotgun\shotgun3</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>Game\04. Actor\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_RedPotion.h">
+      <Filter>Game\04. Actor\Item\RedPotion</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemMgr.h">
+      <Filter>Game\02. Manager\15. ItemMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerInvenWin.h">
+      <Filter>Game\04. Actor\UI\SystemWindow\InventoryWin</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemSlot.h">
+      <Filter>Game\04. Actor\UI\SystemWindow\InventoryWin\Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="CFiledItem.h">
+      <Filter>Game\04. Actor\Item\FiledItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_BluePotion.h">
+      <Filter>Game\04. Actor\Item\BluePotion</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerSkillBrick1.h">
+      <Filter>Game\State\PlayerState\Skill\brick\brick1</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerSkillBrick2.h">
+      <Filter>Game\State\PlayerState\Skill\brick\brick2</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerSkillBrick3.h">
+      <Filter>Game\State\PlayerState\Skill\brick\brick3</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerSkillBrick4.h">
+      <Filter>Game\State\PlayerState\Skill\brick\brick4</Filter>
+    </ClInclude>
+    <ClInclude Include="Skillbrick4.h">
+      <Filter>Game\04. Actor\Interaction\Skill\brick</Filter>
+    </ClInclude>
+    <ClInclude Include="Skillbrick1.h">
+      <Filter>Game\04. Actor\Interaction\Skill\brick</Filter>
+    </ClInclude>
+    <ClInclude Include="Skillbrick2.h">
+      <Filter>Game\04. Actor\Interaction\Skill\brick</Filter>
+    </ClInclude>
+    <ClInclude Include="Skillbrick3.h">
+      <Filter>Game\04. Actor\Interaction\Skill\brick</Filter>
+    </ClInclude>
+    <ClInclude Include="CTitle.h">
+      <Filter>Game\04. Actor\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoginLevel.h">
+      <Filter>Game\03. Level\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="Tomb.h">
+      <Filter>Game\04. Actor\Interaction\Tomb</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerDeadMessage.h">
+      <Filter>Game\04. Actor\UI\DeadMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob_Priestmem.h">
+      <Filter>Game\04. Actor\Mob\priestmem</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob_Mushmom.h">
+      <Filter>Game\04. Actor\Mob\mushmom</Filter>
+    </ClInclude>
+    <ClInclude Include="CStage05.h">
+      <Filter>Game\03. Level\Stage\stage05</Filter>
+    </ClInclude>
+    <ClInclude Include="CStage06.h">
+      <Filter>Game\03. Level\Stage\stage06</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Elixir.h">
+      <Filter>Game\04. Actor\Item\Elixir</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="pch.cpp">
+      <Filter>default</Filter>
+    </ClCompile>
+    <ClCompile Include="CEntity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CEngine.cpp">
+      <Filter>Game\01. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CRes.cpp">
+      <Filter>Game\06. Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionMgr.cpp">
+      <Filter>Game\02. Manager\04. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CEventMgr.cpp">
+      <Filter>Game\02. Manager\05. EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyMgr.cpp">
+      <Filter>Game\02. Manager\01. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevelMgr.cpp">
+      <Filter>Game\02. Manager\03. LevelMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CPathMgr.cpp">
+      <Filter>Game\02. Manager\06. PathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CResMgr.cpp">
+      <Filter>Game\02. Manager\07. ResMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundMgr.cpp">
+      <Filter>Game\02. Manager\09. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIMgr.cpp">
+      <Filter>Game\02. Manager\08. UIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeMgr.cpp">
+      <Filter>Game\02. Manager\02. TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CActor.cpp">
+      <Filter>Game\04. Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>Game\02. Manager\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CToolLevel.cpp">
+      <Filter>Game\03. Level\ToolLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Game\00. header</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>Game\06. Resource\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>Game\06. Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CUI.cpp">
+      <Filter>Game\04. Actor\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CPNUI.cpp">
+      <Filter>Game\04. Actor\UI\PN</Filter>
+    </ClCompile>
+    <ClCompile Include="CToolInven.cpp">
+      <Filter>Game\04. Actor\UI\ToolInven</Filter>
+    </ClCompile>
+    <ClCompile Include="CBtnUI.cpp">
+      <Filter>Game\04. Actor\UI\Btn</Filter>
+    </ClCompile>
+    <ClCompile Include="CToolCell.cpp">
+      <Filter>Game\04. Actor\UI\ToolInven\ToolCell</Filter>
+    </ClCompile>
+    <ClCompile Include="CCsrMgr.cpp">
+      <Filter>Game\02. Manager\12: CsrMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimationMgr.cpp">
+      <Filter>Game\02. Manager\11. AnimationMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>Game\05. Component\Animator\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponent.cpp">
+      <Filter>Game\05. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator.cpp">
+      <Filter>Game\05. Component\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="CCursor.cpp">
+      <Filter>Game\04. Actor\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="CTab.cpp">
+      <Filter>Game\04. Actor\UI\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackgrnd.cpp">
+      <Filter>Game\04. Actor\MapInfo\Backgrnd</Filter>
+    </ClCompile>
+    <ClCompile Include="CMap.cpp">
+      <Filter>Game\04. Actor\MapInfo\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CToolLevelInit.cpp">
+      <Filter>Game\03. Level\ToolLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogoLevel.cpp">
+      <Filter>Game\03. Level\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="CRigidbody.cpp">
+      <Filter>Game\05. Component\Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider.cpp">
+      <Filter>Game\05. Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlatform.cpp">
+      <Filter>Game\04. Actor\MapInfo\CLine\CPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="CDummy.cpp">
+      <Filter>Game\04. Actor\UI\Dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="CToolLevelFunc.cpp">
+      <Filter>Game\03. Level\ToolLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="CLine.cpp">
+      <Filter>Game\04. Actor\MapInfo\CLine</Filter>
+    </ClCompile>
+    <ClCompile Include="CWall.cpp">
+      <Filter>Game\04. Actor\MapInfo\CLine\CWall</Filter>
+    </ClCompile>
+    <ClCompile Include="CRope.cpp">
+      <Filter>Game\04. Actor\MapInfo\CLine\CRope</Filter>
+    </ClCompile>
+    <ClCompile Include="CLadder.cpp">
+      <Filter>Game\04. Actor\MapInfo\CLine\CLadder</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpawner.cpp">
+      <Filter>Game\04. Actor\MapInfo\MapObj\Spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="CMob.cpp">
+      <Filter>Game\04. Actor\Mob</Filter>
+    </ClCompile>
+    <ClCompile Include="CDebug.cpp">
+      <Filter>Game\02. Manager\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="CPortal.cpp">
+      <Filter>Game\04. Actor\MapInfo\MapObj\Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="CStage01.cpp">
+      <Filter>Game\03. Level\Stage\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevel.cpp">
+      <Filter>Game\03. Level\LevelInit</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevelinit.cpp">
+      <Filter>Game\03. Level\LevelInit</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Game\04. Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerState.cpp">
+      <Filter>Game\State\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerStandLeft.cpp">
+      <Filter>Game\State\PlayerState\default\StandLeft</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerStandRight.cpp">
+      <Filter>Game\State\PlayerState\default\StandRight</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerWalkLeft.cpp">
+      <Filter>Game\State\PlayerState\default\WalkLeft</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerWalkRight.cpp">
+      <Filter>Game\State\PlayerState\default\WalkRight</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerRope.cpp">
+      <Filter>Game\State\PlayerState\default\Rope</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerProneRight.cpp">
+      <Filter>Game\State\PlayerState\default\ProneRight</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerProneLeft.cpp">
+      <Filter>Game\State\PlayerState\default\ProneLeft</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerLadder.cpp">
+      <Filter>Game\State\PlayerState\default\Ladder</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerJumpLeft.cpp">
+      <Filter>Game\State\PlayerState\default\JumpLeft</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerJumpRight.cpp">
+      <Filter>Game\State\PlayerState\default\JumpRight</Filter>
+    </ClCompile>
+    <ClCompile Include="CStage02.cpp">
+      <Filter>Game\03. Level\Stage\Stage02</Filter>
+    </ClCompile>
+    <ClCompile Include="CStage03.cpp">
+      <Filter>Game\03. Level\Stage\Stage03</Filter>
+    </ClCompile>
+    <ClCompile Include="CStage04.cpp">
+      <Filter>Game\03. Level\Stage\Stage04</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevelState.cpp">
+      <Filter>Game\State\LevelState</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevelStateIdle.cpp">
+      <Filter>Game\State\LevelState\StateList\LevelIdle</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevelChange.cpp">
+      <Filter>Game\State\LevelState\StateList\LevelChange</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevelStateIn.cpp">
+      <Filter>Game\State\LevelState\StateList\LevelIn</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevelStateOut.cpp">
+      <Filter>Game\State\LevelState\StateList\LevelOut</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerMgr.cpp">
+      <Filter>Game\02. Manager\13. PlayerMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerAlertLeft.cpp">
+      <Filter>Game\State\PlayerState\default\AlertLeft</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerAlertRight.cpp">
+      <Filter>Game\State\PlayerState\default\AlertRight</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerSkillStroke.cpp">
+      <Filter>Game\State\PlayerState\Skill\stroke\Stroke1</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkill.cpp">
+      <Filter>Game\04. Actor\Interaction\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillStroke.cpp">
+      <Filter>Game\04. Actor\Interaction\Skill\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillStroke2.cpp">
+      <Filter>Game\04. Actor\Interaction\Skill\stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleJump.cpp">
+      <Filter>Game\04. Actor\Interaction\Skill\DoubleJump</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerSkillStroke2.cpp">
+      <Filter>Game\State\PlayerState\Skill\stroke\Stroke2</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattleMgr.cpp">
+      <Filter>Game\02. Manager\14. BattleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob_Snail.cpp">
+      <Filter>Game\04. Actor\Mob\Snail</Filter>
+    </ClCompile>
+    <ClCompile Include="CMobState.cpp">
+      <Filter>Game\State\MobState</Filter>
+    </ClCompile>
+    <ClCompile Include="CMobIdleLeft.cpp">
+      <Filter>Game\State\MobState\IdleLeft</Filter>
+    </ClCompile>
+    <ClCompile Include="CMobAlert.cpp">
+      <Filter>Game\State\MobState\Alert</Filter>
+    </ClCompile>
+    <ClCompile Include="CMobDead.cpp">
+      <Filter>Game\State\MobState\Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="CMobIdleRight.cpp">
+      <Filter>Game\State\MobState\IdleRight</Filter>
+    </ClCompile>
+    <ClCompile Include="CMobWalkLeft.cpp">
+      <Filter>Game\State\MobState\WalkLeft</Filter>
+    </ClCompile>
+    <ClCompile Include="CMobWalkRight.cpp">
+      <Filter>Game\State\MobState\WalkRight</Filter>
+    </ClCompile>
+    <ClCompile Include="CMobSpawn.cpp">
+      <Filter>Game\State\MobState\Spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="CMobDamaged.cpp">
+      <Filter>Game\State\MobState\Damaged</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerInit.cpp">
+      <Filter>Game\04. Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CDamage.cpp">
+      <Filter>Game\04. Actor\Damage</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob_BlueSnail.cpp">
+      <Filter>Game\04. Actor\Mob\BlueSnail</Filter>
+    </ClCompile>
+    <ClCompile Include="CLayerUI.cpp">
+      <Filter>Game\04. Actor\UI\MainBar\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="CGaugeUI.cpp">
+      <Filter>Game\04. Actor\UI\MainBar\gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackGrndUI.cpp">
+      <Filter>Game\04. Actor\UI\MainBar\backgrnd</Filter>
+    </ClCompile>
+    <ClCompile Include="CStatusLevelUI.cpp">
+      <Filter>Game\04. Actor\UI\MainBar\StatusBar\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="CStatusBarUI.cpp">
+      <Filter>Game\04. Actor\UI\MainBar\StatusBar</Filter>
+    </ClCompile>
+    <ClCompile Include="CExpBarUI.cpp">
+      <Filter>Game\04. Actor\UI\MainBar\ExpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="CLvNum.cpp">
+      <Filter>Game\04. Actor\UI\MainBar\char\LvNum</Filter>
+    </ClCompile>
+    <ClCompile Include="CNum.cpp">
+      <Filter>Game\04. Actor\UI\MainBar\char\CNum</Filter>
+    </ClCompile>
+    <ClCompile Include="CExpGaugeUI.cpp">
+      <Filter>Game\04. Actor\UI\MainBar\gauge\ExpGauge</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelUP.cpp">
+      <Filter>Game\04. Actor\Interaction\LevelUP</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuickSlotUI.cpp">
+      <Filter>Game\04. Actor\UI\QuickSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerStatWin.cpp">
+      <Filter>Game\04. Actor\UI\SystemWindow\Statwin</Filter>
+    </ClCompile>
+    <ClCompile Include="CInteraction.cpp">
+      <Filter>Game\04. Actor\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerSkillWin.cpp">
+      <Filter>Game\04. Actor\UI\SystemWindow\Skillwin</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkillSLot.cpp">
+      <Filter>Game\04. Actor\UI\SystemWindow\Skillwin\Slot</Filter>
+    </ClCompile>
+    <ClCompile Include="KeySlot.cpp">
+      <Filter>Game\04. Actor\UI\QuickSlot\KeySlot</Filter>
+    </ClCompile>
+    <ClCompile Include="Skillshotgun1.cpp">
+      <Filter>Game\04. Actor\Interaction\Skill\shotgun</Filter>
+    </ClCompile>
+    <ClCompile Include="Skillshotgun2.cpp">
+      <Filter>Game\04. Actor\Interaction\Skill\shotgun</Filter>
+    </ClCompile>
+    <ClCompile Include="Skillshotgun3.cpp">
+      <Filter>Game\04. Actor\Interaction\Skill\shotgun</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerSkillShotgun1.cpp">
+      <Filter>Game\State\PlayerState\Skill\shotgun\shotgun1</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerSkillShotgun2.cpp">
+      <Filter>Game\State\PlayerState\Skill\shotgun\shotgun2</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerSkillShotgun3.cpp">
+      <Filter>Game\State\PlayerState\Skill\shotgun\shotgun3</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem.cpp">
+      <Filter>Game\04. Actor\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_RedPotion.cpp">
+      <Filter>Game\04. Actor\Item\RedPotion</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemMgr.cpp">
+      <Filter>Game\02. Manager\15. ItemMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerInvenWin.cpp">
+      <Filter>Game\04. Actor\UI\SystemWindow\InventoryWin</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemSlot.cpp">
+      <Filter>Game\04. Actor\UI\SystemWindow\InventoryWin\Slot</Filter>
+    </ClCompile>
+    <ClCompile Include="CFiledItem.cpp">
+      <Filter>Game\04. Actor\Item\FiledItem</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_BluePotion.cpp">
+      <Filter>Game\04. Actor\Item\BluePotion</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerSkillBrick1.cpp">
+      <Filter>Game\State\PlayerState\Skill\brick\brick1</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerSkillBrick2.cpp">
+      <Filter>Game\State\PlayerState\Skill\brick\brick2</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerSkillBrick3.cpp">
+      <Filter>Game\State\PlayerState\Skill\brick\brick3</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerSkillBrick4.cpp">
+      <Filter>Game\State\PlayerState\Skill\brick\brick4</Filter>
+    </ClCompile>
+    <ClCompile Include="Skillbrick1.cpp">
+      <Filter>Game\04. Actor\Interaction\Skill\brick</Filter>
+    </ClCompile>
+    <ClCompile Include="Skillbrick2.cpp">
+      <Filter>Game\04. Actor\Interaction\Skill\brick</Filter>
+    </ClCompile>
+    <ClCompile Include="Skillbrick3.cpp">
+      <Filter>Game\04. Actor\Interaction\Skill\brick</Filter>
+    </ClCompile>
+    <ClCompile Include="Skillbrick4.cpp">
+      <Filter>Game\04. Actor\Interaction\Skill\brick</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitle.cpp">
+      <Filter>Game\04. Actor\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoginLevel.cpp">
+      <Filter>Game\03. Level\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="Tomb.cpp">
+      <Filter>Game\04. Actor\Interaction\Tomb</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerDeadMessage.cpp">
+      <Filter>Game\04. Actor\UI\DeadMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob_Mushmom.cpp">
+      <Filter>Game\04. Actor\Mob\mushmom</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob_Priestmem.cpp">
+      <Filter>Game\04. Actor\Mob\priestmem</Filter>
+    </ClCompile>
+    <ClCompile Include="CStage05.cpp">
+      <Filter>Game\03. Level\Stage\stage05</Filter>
+    </ClCompile>
+    <ClCompile Include="CStage06.cpp">
+      <Filter>Game\03. Level\Stage\stage06</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Elixir.cpp">
+      <Filter>Game\04. Actor\Item\Elixir</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
